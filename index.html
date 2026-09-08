@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Personal Portfolio of Alex Morgan - Senior Full Stack Developer & UI/UX Specialist showcasing education, skills, projects, and achievements.">
+    <meta name="keywords"
+        content="Portfolio, Full Stack Developer, Software Engineer, Web Development, HTML5, CSS3, UI/UX Design">
+    <meta name="author" content="Alex Morgan">
+    <title>Nitin Sharma | Aspiring Full Stack Web Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">Nitin <span class="highlight">Sharma</span></span>
+            </a>
+
+            <!-- Pure CSS Mobile Menu Checkbox Toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle Navigation Menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </label>
+
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About Me</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+                    </li>
+                    <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+                    </li>
+                    <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Home Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-status">
+                        <span class="status-dot"></span> Available for New Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Nitin Sharma</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Aspiring Full Stack Web Developer</h2>
+                    <p class="hero-intro">
+                        Passionate about crafting high-performance, aesthetically captivating, and scalable web
+                        applications. Turning complex problems into elegant user experiences.
+                    </p>
+
+                    <!-- Career Objective Card -->
+                    <div class="career-objective-box">
+                        <div class="objective-header">
+                            <i class="fa-solid fa-bullseye"></i>
+                            <span>Career Objective</span>
+                        </div>
+                        <p class="objective-text">
+                            To leverage my full-stack software development expertise, modern architectural principles,
+                            and passion for UI engineering in a fast-paced technology team to build innovative software
+                            solutions that deliver high impact.
+                        </p>
+                    </div>
+
+                    <div class="hero-cta-group">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-rocket"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+                            title="GitHub Profile">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="profile-card">
+                        <div class="image-border-glow"></div>
+                        <img src="assets/profile.jpg" alt="Nitin Sharma Profile Photograph" class="profile-img">
+                        <div class="experience-badge">
+                            <span class="exp-years">Fresher</span>
+                            <span class="exp-label"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Get To Know Me</span>
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <div class="section-title-bar"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Bio Overview -->
+                    <div class="about-bio-card glass-card">
+                        <h3 class="card-heading"><i class="fa-solid fa-id-card"></i> Personal Biography</h3>
+                        <p>
+                            I am a passionate software engineer that is building modern web
+                            software. My journey started with a fascination for graphics and logic, which quickly
+                            evolved into building end-to-end full stack web platforms.
+                        </p>
+                        <p>
+                            I thrive at the intersection of design precision and scalable back-end architecture. Whether
+                            crafting responsive user interfaces or optimizing data pipelines, I focus on detail, code
+                            quality, and maintainability.
+                        </p>
+                        <div class="bio-quick-facts">
+                            <div class="fact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <strong>Location:</strong>
+                                    <span>Agra, Uttar Pradesh, India </span>
+                                </div>
+                            </div>
+                            <div class="fact-item">
+                                <i class="fa-solid fa-language"></i>
+                                <div>
+                                    <strong>Languages:</strong>
+                                    <span>Hindi, English</span>
+                                </div>
+                            </div>
+                            <div class="fact-item">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <div>
+                                    <strong>Specialty:</strong>
+                                    <span>Full Stack Web & Mobile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hobbies & Interests -->
+                    <div class="about-interests-card glass-card">
+                        <h3 class="card-heading"><i class="fa-solid fa-heart"></i> Interests & Hobbies</h3>
+                        <ul class="interests-list">
+                            <li class="interest-item">
+                                <div class="interest-icon"><i class="fa-solid fa-code-branch"></i></div>
+                                <div class="interest-content">
+                                    <h4>Open Source Contributions</h4>
+                                    <p>Active maintainer and contributor to modern frontend utility libraries and
+                                        developer tooling.</p>
+                                </div>
+                            </li>
+                            <li class="interest-item">
+                                <div class="interest-icon"><i class="fa-solid fa-camera"></i></div>
+                                <div class="interest-content">
+                                    <h4>Urban & Architecture Photography</h4>
+                                    <p>Exploring perspective, lighting, and composition through digital photography.</p>
+                                </div>
+                            </li>
+                            <li class="interest-item">
+                                <div class="interest-icon"><i class="fa-solid fa-cloud-sun"></i></div>
+                                <div class="interest-content">
+                                    <h4>Cloud Architecture</h4>
+                                    <p>Exploring serverless paradigms, automated CI/CD pipelines, and microservices.</p>
+                                </div>
+                            </li>
+                            <li class="interest-item">
+                                <div class="interest-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                                <div class="interest-content">
+                                    <h4>A Writer: Also Writing Shayari And Ghazals</h4>
+                                    <p>Apart from this i also have a keen ineterest in writing shayari and ghazals from
+                                        my own(100+).</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Career Goals -->
+                    <div class="about-goals-card glass-card span-full">
+                        <h3 class="card-heading"><i class="fa-solid fa-flag"></i> Career Goals</h3>
+                        <div class="goals-container">
+                            <div class="goal-box short-term">
+                                <div class="goal-tag">Short-Term Goal</div>
+                                <h4>Master AI-Driven Development & Cloud Architecture</h4>
+                                <p>Architect enterprise-grade cloud solutions integrating modern machine learning models
+                                    and serverless infrastructure while optimizing user experience speeds.</p>
+                            </div>
+                            <div class="goal-box long-term">
+                                <div class="goal-tag">Long-Term Goal</div>
+                                <h4>Lead Engineering & Architectural Strategy</h4>
+                                <p>Advance into a Principal Staff Architect role, guiding engineering culture,
+                                    establishing design standards, and driving disruptive product innovation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Education Section -->
+        <section id="education" class="section education-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Academic Background</span>
+                    <h2 class="section-title">Educational <span class="gradient-text">Qualifications</span></h2>
+                    <div class="section-title-bar"></div>
+                </div>
+
+                <div class="table-responsive-wrapper glass-card">
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <th><i class="fa-solid fa-graduation-cap"></i> Degree / Qualification</th>
+                                <th><i class="fa-solid fa-building-columns"></i> Institution / University</th>
+                                <th><i class="fa-solid fa-book-open"></i> Field of Study</th>
+                                <th><i class="fa-solid fa-calendar"></i> Year</th>
+                                <th><i class="fa-solid fa-award"></i> Grade / CGPA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                            <tr>
+                                <td>
+                                    <span class="degree-title">Bachelor of Computer Applications(BCA)</span>
+                                    <span class="degree-sub">Undergraduate Degree</span>
+                                </td>
+                                <td>Sharda University Agra</td>
+                                <td>Computer Science (Software Systems)</td>
+                                <td><span class="year-pill">2024-2027</span></td>
+                                <td><strong class="grade-text">9.5 CGPA</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="degree-title">Higher Secondary Certificate (HSC)</span>
+                                    <span class="degree-sub">Class XII Board Exam</span>
+                                </td>
+                                <td>New St.Stephens Public School</td>
+                                <td>Science (Physics, Chem, Math, CS)</td>
+                                <td><span class="year-pill">2023-2024</span></td>
+                                <td><strong class="grade-text">81%</strong></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="degree-title">Secondary School Certificate (SSC)</span>
+                                    <span class="degree-sub">Class X Board Exam</span>
+                                </td>
+                                <td>New St.Stephens Public School</td>
+                                <td>General Science & Mathematics</td>
+                                <td><span class="year-pill">2021-2022</span></td>
+                                <td><strong class="grade-text">84%</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Technical Proficiency</span>
+                    <h2 class="section-title">Technical & <span class="gradient-text">Relevant Skills</span></h2>
+                    <div class="section-title-bar"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Frontend Card -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-desktop category-icon"></i>
+                            <h3>Frontend Engineering</h3>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5 & Semantic Markup</span>
+                                    <span class="skill-percentage">98%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 98%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3 / Modern Flexbox & Grid</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (ES6+) & TypeScript</span>
+                                    <span class="skill-percentage">92%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js & Next.js Frameworks</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Card -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server category-icon"></i>
+                            <h3>Backend & Databases</h3>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js & Express Architecture</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python & RESTful APIs</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PostgreSQL & MySQL Relational DB</span>
+                                    <span class="skill-percentage">86%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 86%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB & Redis Caching</span>
+                                    <span class="skill-percentage">82%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 82%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Tools -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-cloud category-icon"></i>
+                            <h3>Cloud & Tooling</h3>
+                        </div>
+                        <div class="skill-items-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub Version Control</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Docker & Containerization</span>
+                                    <span class="skill-percentage">84%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 84%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS Cloud Services (S3, EC2, Lambda)</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma UI/UX & Responsive Wireframing</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="progress-bar-bg">
+                                    <div class="progress-bar-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Professional & Soft Skills -->
+                    <div class="skill-category-card glass-card">
+                        <div class="category-header">
+                            <i class="fa-solid fa-people-group category-icon"></i>
+                            <h3>Professional & Soft Skills</h3>
+                        </div>
+                        <div class="soft-skills-grid">
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-comments"></i>
+                                <span>Technical Communication</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <span>Problem Solving & Algorithms</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-user-group"></i>
+                                <span>Cross-Functional Leadership</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <span>Agile / Scrum Methodologies</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>Project Time Management</span>
+                            </div>
+                            <div class="soft-skill-badge">
+                                <i class="fa-solid fa-eye"></i>
+                                <span>Detail-Oriented QA Testing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Projects & Achievements Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Portfolio Showcase</span>
+                    <h2 class="section-title">Projects & <span class="gradient-text">Achievements</span></h2>
+                    <div class="section-title-bar"></div>
+                </div>
+
+                <!-- Featured Projects Grid -->
+                <h3 class="subsection-heading"><i class="fa-solid fa-laptop-code"></i> Featured Work</h3>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-box">
+                            <img src="assets/project1.jpg" alt="Quantum Data Analytics Platform Interface"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="overlay-btn" title="View Source Code"><i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#contact" class="overlay-btn primary" title="View Live Demo"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span class="tag">HTML5 / CSS3</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">PostgreSQL</span>
+                            </div>
+                            <h4 class="project-title">A sensor based nadi pariksha diagnotic machine</h4>
+                            <p class="project-desc">
+                                An innovative, hardware-integrated health solution designed to digitize the ancient
+                                Ayurvedic practice of Nadi Pariksha (pulse diagnosis). By utilizing high-precision
+                                sensors, this system captures physical pulse waves and processes them to provide
+                                data-driven diagnostic insights, effectively bridging traditional holistic medicine with
+                                modern biomedical engineering.
+
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-box">
+                            <img src="assets/project2.jpg" alt="Lumina E-Commerce Shopping Experience"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="overlay-btn" title="View Source Code"><i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#contact" class="overlay-btn primary" title="View Live Demo"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span class="tag">HTML5 / Flexbox</span>
+                                <span class="tag">CSS Grid</span>
+                                <span class="tag">E-Commerce</span>
+                                <span class="tag">Stripe API</span>
+                            </div>
+                            <h4 class="project-title">Tic Toe Tracker</h4>
+                            <p class="project-desc">
+                                A modernized, dynamic take on the classic grid game. Developed with a clean user
+                                interface and robust logic, this application enhances simple gameplay with responsive
+                                design, smooth state management, and optimized win-condition evaluation algorithms.
+
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card glass-card">
+                        <div class="project-image-box">
+                            <img src="assets/project3.jpg" alt="CodeFlow AI Assistant Studio Interface"
+                                class="project-img">
+                            <div class="project-overlay">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="overlay-btn" title="View Source Code"><i class="fa-brands fa-github"></i>
+                                    Code</a>
+                                <a href="#contact" class="overlay-btn primary" title="View Live Demo"><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">AI / Machine Learning</span>
+                                <span class="tag">Web API</span>
+                                <span class="tag">Dark UI</span>
+                            </div>
+                            <h4 class="project-title">AI Enabled Smart Board</h4>
+                            <p class="project-desc">
+                                An intelligent, interactive surface designed to transform collaboration and presentation
+                                environments. By integrating machine learning models, this system goes beyond
+                                traditional digital whiteboards to automate task tracking, analyze user input, and
+                                provide real-time contextual enhancements.
+
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Certifications & Achievements Grid -->
+                <h3 class="subsection-heading mt-large"><i class="fa-solid fa-trophy"></i> Certifications & Honors</h3>
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card">
+                        <div class="achievement-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="achievement-info">
+                            <h4>AWS Student Community</h4>
+                            <p class="issuer">Amazon Web Services (AWS) • Issued 2026</p>
+                            <p class="achieve-desc">An event organised by the sharda university where all the aws
+                                members meet and a session was held for community connect</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card">
+                        <div class="achievement-icon"><i class="fa-solid fa-medal"></i></div>
+                        <div class="achievement-info">
+                            <h4>Gemini Certified Student</h4>
+                            <p class="issuer">Google • 2026</p>
+                            <p class="achieve-desc">Demonstrates foundational to advanced proficiency in utilizing
+                                Google’s Gemini large language models for problem-solving, prompt engineering, and
+                                application workflow optimization.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card glass-card">
+                        <div class="achievement-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="achievement-info">
+                            <h4>Full Stack Web Developer</h4>
+                            <p class="issuer">Physics Wallah Foundation</p>
+                            <p class="achieve-desc">Validates comprehensive training and practical expertise across the
+                                entire web development lifecycle. This credential confirms proficiency in building
+                                responsive frontend user interfaces, engineering scalable backend architectures,
+                                managing relational/non-relational databases, and deploying secure, production-ready web
+                                applications.
+                                .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-title-wrapper">
+                    <span class="section-tag">Let's Connect</span>
+                    <h2 class="section-title">Contact <span class="gradient-text">Information</span></h2>
+                    <div class="section-title-bar"></div>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Contact Cards & Socials -->
+                    <div class="contact-info-column">
+                        <div class="contact-intro">
+                            <h3>Reach Out Anytime</h3>
+                            <p>
+                                I'm always open to discussing new engineering opportunities, creative web projects, or
+                                tech collaborations. Feel free to drop a message!
+                            </p>
+                        </div>
+
+                        <div class="contact-cards-list">
+                            <div class="contact-card glass-card">
+                                <div class="contact-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-label">Email Address</span>
+                                    <a href="mailto:alex.morgan.dev@example.com"
+                                        class="contact-value">nitinsharma5931@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card glass-card">
+                                <div class="contact-icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-label">Phone Number</span>
+                                    <a href="tel:+14155550199" class="contact-value">800644156</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card glass-card">
+                                <div class="contact-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Agra, uttar Pradesh, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Working Profiles (Mandatory: GitHub & LinkedIn) -->
+                        <div class="social-profiles-box">
+                            <h4>Connect via Social Profiles</h4>
+                            <div class="social-links-flex">
+                                <a href="https://github.com/GR-NitinSharma" target="_blank" rel="noopener noreferrer"
+                                    class="social-btn github" title="GitHub Profile">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub</span>
+                                </a>
+                                <a href="www.linkedin.com/in/nitin-sharma-21188b34b" target="_blank"
+                                    rel="noopener noreferrer" class="social-btn linkedin" title="LinkedIn Profile">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <span>LinkedIn</span>
+
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-column glass-card">
+                        <form class="contact-form" action="#" method="POST">
+                            <h3 class="form-title"><i class="fa-solid fa-paper-plane"></i> Send Me a Message</h3>
+
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name <span class="required">*</span></label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-solid fa-user input-icon"></i>
+                                    <input type="text" id="name" name="name" class="form-control" placeholder="John Doe"
+                                        required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address <span
+                                        class="required">*</span></label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-solid fa-envelope input-icon"></i>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="john@example.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <div class="input-icon-wrapper">
+                                    <i class="fa-solid fa-heading input-icon"></i>
+                                    <input type="text" id="subject" name="subject" class="form-control"
+                                        placeholder="Project Inquiry / Collaboration">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" class="form-control textarea" rows="5"
+                                    placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="logo">
+                    <span class="logo-symbol">&lt;/&gt;</span>
+                    <span class="logo-text">GR.Nitin Sharma</span>
+                </a>
+                <p>&copy; 2k26 GR.Nitin Sharma. Built with HTML5 & CSS3. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="#home" class="back-to-top-btn" title="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
